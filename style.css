@@ -1,4 +1,13 @@
 body {
+    /*font family*/
     font-family: "Work Sans", sans-serif, system-ui;
     font-size: 16px;
+    /*light purple background*/
+    min-height: 100vh;
+    background-color: hsl(275, 100%, 97%);
+    /*dark purple banner image*/
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
 }

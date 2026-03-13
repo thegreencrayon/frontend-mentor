@@ -80,7 +80,14 @@ const proudOfThisFunc = () => {
 }
 ```
 1. accordian toggle using <details> <summary> <p> <details>
-2. 
+2. best formatting order is (1) font (2) page background (3) card classes (4) icons (5) text colors and weights
+3. how to insert google font by copy & pasting code to html <head> then actually using it in css font-family
+4. min-height: 100vh = "make this element at least as tall as the screen"
+5. background-color in css for body color
+6. background-image in css for image stacked ontop of background color
+7. background-size: 100% - "make image exactly as wide as the screen"
+8. background-position ctrls position of image
+
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
