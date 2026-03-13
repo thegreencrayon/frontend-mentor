@@ -87,7 +87,10 @@ const proudOfThisFunc = () => {
 6. background-image in css for image stacked ontop of background color
 7. background-size: 100% - "make image exactly as wide as the screen"
 8. background-position ctrls position of image
-
+9. flexbox lays out elements children, not the element itself
+10. in flexbox, justify-content centers left & right
+11. in flexbox, alight-items centers top & bottom
+12. main flexbox job is for positioning, NOT for sizing
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
