@@ -31,3 +31,23 @@ main {
     align-items: center;
     min-height: 100vh; /*so the main element knows where to vertically center*/
 }
+
+summary {
+    display: flex;
+    list-style: none;
+    appearance: none;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Makes plus icon appear as default for accordion*/
+summary::after {
+    content: "";
+    background-image: url("./assets/images/icon-plus.svg");
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+/*Makes minus icon appear as for accordion when opened*/
+details[open] summary::after {
+    background-image: url("./assets/images/icon-minus.svg");
+}
