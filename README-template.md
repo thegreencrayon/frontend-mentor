@@ -96,7 +96,10 @@ const proudOfThisFunc = () => {
 15. justify-content: space-between = "push the first child to the start, last child to the end, and spread any leftover space between them"
 16. summary::after is a pseudo-element so by default it is basically a 0x0 invisible box ![](./assets/images/progress-images/plus-minus-icons.png)
 17. "color" for text color: ![](./assets/images/progress-images/text-color.png)
+18. line-height: 1.5 = double spacing!
+19. padding = all four, padding-block = top & bottom ![](./assets/images/progress-images/faq-spacing.png)
 
+I would like to (1) fix faq size (2) add gaps between each summary so i see a sliver of light purple (3) fix the spacing between each question it's soo tight!
 
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
