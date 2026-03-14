@@ -91,6 +91,8 @@ const proudOfThisFunc = () => {
 10. in flexbox, justify-content centers left & right
 11. in flexbox, alight-items centers top & bottom
 12. main flexbox job is for positioning, NOT for sizing
+13. rounded edges achieved through border-radius: ![](./assets/images/progress-images/faq-box.png)
+14. gap = works on a container, and it adds space between its children ![](./assets/images/progress-images/faq-header.png)
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
