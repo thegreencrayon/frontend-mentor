@@ -38,6 +38,8 @@ summary {
     appearance: none;
     justify-content: space-between;
     align-items: center;
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
 }
 /*Makes plus icon appear as default for accordion*/
 summary::after {
@@ -50,4 +52,8 @@ summary::after {
 /*Makes minus icon appear as for accordion when opened*/
 details[open] summary::after {
     background-image: url("./assets/images/icon-minus.svg");
+}
+
+p {
+    color: hsl(292, 16%, 49%);
 }
