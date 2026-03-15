@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% auto;
+    
 }
 .faq-container {
     background-color: white;
@@ -53,6 +54,7 @@ summary::after {
     width: 30px;
     height: 30px;
     display: inline-block;
+    flex-shrink: 0;
 }
 /*Makes minus icon appear as for accordion when opened*/
 details[open] summary::after {
@@ -71,4 +73,20 @@ details:last-of-type {
 p {
     color: hsl(292, 16%, 49%);
     line-height: 1.5;
+}
+
+/*Mobile Style guide*/
+@media (max-width: 700px) {
+    /*Use mobile background pattern instead of desktop*/
+    body {
+        background-image: url("./assets/images/background-pattern-mobile.svg");
+    }
+    /*Use slightly smaller padding in heading so it fits better*/
+    .faq-container {
+        padding: 0rem, 1rem, 1rem, 1rem;
+        margin: 0 1rem;
+    }
+    .faq-header h1 {
+        font-size: 2rem;
+    }
 }

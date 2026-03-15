@@ -98,8 +98,12 @@ const proudOfThisFunc = () => {
 17. "color" for text color: ![](./assets/images/progress-images/text-color.png)
 18. line-height: 1.5 = double spacing!
 19. padding = all four, padding-block = top & bottom ![](./assets/images/progress-images/faq-spacing.png)
+20. Responsive design mode: Safari -> Develop -> Adopt Responsive Design Mode ![](./assets/images/progress-images/original-mobile-view.png)
+21. flex-shrink: 0 for ::after = makes it so that invisible element cannot deviate from set dimensions, no shrink
+22. margin = creates empty space between faq and background
+23. @media to do mobile version ![](./assets/images/progress-images/final-mobile-view.png)
 
-I would like to (1) fix faq size (2) add gaps between each summary so i see a sliver of light purple (3) fix the spacing between each question it's soo tight!
+I would like to (1) add last progress note (2) edit progress notes (3) test mobile and desktop (4) upload to git
 
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
